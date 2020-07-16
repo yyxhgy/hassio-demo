@@ -8,26 +8,26 @@
   "auth_api": true,
   "auto_uart": true,
   "boot": "auto",
-  "description": "ESPHome Hass.io add-on for intelligently managing all your ESP8266/ESP32 devices.",
+  "description": "yyxhgy hassio demo",
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": true,
-  "image": "esphome/esphome-hassio-{arch}",
+  "image": "yyxhgy/yyxhgy-hassio-{arch}",
   "ingress": true,
   "ingress_port": 0,
   "map": [
     "ssl:ro",
     "config:rw"
   ],
-  "name": "ESPHome",
+  "name": "yyxhgy-demo",
   "options": {},
   "panel_icon": "mdi:chip",
   "ports": {
-    "6052/tcp": null
+    "1144/tcp": null
   },
   "ports_description": {
-    "6052/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "1144/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "schema": {
     "certfile": "str?",
@@ -39,9 +39,9 @@
     "status_use_ping": "bool?",
     "streamer_mode": "bool?"
   },
-  "slug": "esphome",
+  "slug": "yyxhgy",
   "startup": "application",
-  "url": "https://esphome.io/",
-  "version": "1.14.5",
-  "webui": "http://[HOST]:[PORT:6052]"
+  "url": "https://yyxhgy.io/",
+  "version": "0.0.1",
+  "webui": "http://[HOST]:[PORT:1144]"
 }
